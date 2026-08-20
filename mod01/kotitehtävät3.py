@@ -1,3 +1,6 @@
+#kotitehtävä 3. Muuttujat ja vuorovaikutteiset ohjelmat
+#tehtävä 3.2.
+
 import math
 
 sade_str = input("Anna ympyrän säde: ")
