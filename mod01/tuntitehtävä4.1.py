@@ -1,4 +1,5 @@
-vuosi = float(input("Anna vuosi: "))
-if vuosi >= 4:
-    print("Annettu vuosiluku oli olympivuosi.")
-    
+vuosi = int(input("Anna vuosi: "))
+if vuosi % 4 == 0:
+    print("Annettu vuosiluku oli olympivuosi.")  
+else:
+    print("Ei ollut olympiavuosi")
