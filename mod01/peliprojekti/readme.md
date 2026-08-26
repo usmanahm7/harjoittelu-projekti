@@ -1,3 +1,3 @@
-## Peli
+## Flappy Bird
 
 Tekijän nimi = Usman
