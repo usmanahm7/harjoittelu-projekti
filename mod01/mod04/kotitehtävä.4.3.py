@@ -1,3 +1,5 @@
+#4. Valintarakenne (if) tehtävä 4.3.
+
 #kysytään käyttäjältä sukupuoli.
 sukupuoli = input("Anna biologinen sukupuoli (mies/nainen): ")
 
