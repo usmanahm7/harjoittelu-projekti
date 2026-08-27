@@ -1,3 +1,5 @@
+#4. Valintarakenne (if) tehtävä 4.2.
+
 hytti = (input("Mikä on hytti luokkasi?: "))
 
 LUX = "parvekkeellinen hytti yläkannella."

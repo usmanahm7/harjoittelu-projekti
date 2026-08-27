@@ -1,3 +1,5 @@
+#4. Valintarakenne (if) tehtävä 4.1.
+
 kuha = float(input("Anna kuhan pituus cm: "))
 alamitta = 37
 
