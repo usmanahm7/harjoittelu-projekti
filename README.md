@@ -1,4 +1,4 @@
 Ohjelmisto 1 - Python harjoitukset
 Usman Ahmad
 
-Tein tehtävät 1-3.
+Tein mod01-4 tehtävät.
