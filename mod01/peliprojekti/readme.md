@@ -6,4 +6,4 @@ Olen tehnyt peliprojekti tehtävät 1-2.
 
 Tein projekti 2 tehtävän.
 
-Tein projekt 3 tehtävä.
+Tein projekti 3 tehtävän.
