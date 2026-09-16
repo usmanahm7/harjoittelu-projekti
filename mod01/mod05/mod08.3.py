@@ -10,3 +10,6 @@ while True:
         print(f"Aseman nimi on: {asemat[iceao]}")
     if valinta == "3":
         break
+
+
+
