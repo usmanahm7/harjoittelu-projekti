@@ -8,3 +8,7 @@ Tein mod5 tehtävät
 Tein mod6 tehtävät
 
 Tein mod7 tehtävät
+
+Tein mod8 tehtävät
+
+Tein mod9 tehtävät
