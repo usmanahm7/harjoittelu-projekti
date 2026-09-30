@@ -1,9 +1,6 @@
-# Kysytään käyttäjän nimi ja ikä.
 käyttäjä = input('Anna nimesi: ')
-# käytetään tässä int , koska ikä annetaan kokonaislukuna
 ikä = int(input('Anna ikäsi: '))
 
-# Lisätään reppu osio.
 reppu = []
 
 def lisaa_esine():
@@ -30,17 +27,11 @@ def poista_esine():
     else:
         print("Esinettä ei löytynyt repustasi!.")
 
-
-# Tarkastetaan iän perusteella, että pääseekö käyttäjä pelin sisälle.
-# Jos ikä on alle 12, ilmoitetaan alaikäisyydestä ja ohjelma päättyy
-# Jos ikä on 12 tai enemmän, tervehditään käyttäjää.
 if ikä < 12:
     print("Olet alaikäinen.")
 else:
     print("Hauska tavata, " + käyttäjä + "!")
 
-# käyttäjältä kysytään kolme erivaihtoehtoa, josta hän päättä minkä hän itse halua tehdä.
-# kirjoittamalla "lopeta" komennon peli loppuu ja tervehtii käyttäjää.
     while True:
         print("Valitse: peli | info | lopeta")
         komento = input("Komentoni: ")
@@ -49,7 +40,6 @@ else:
             print("Kiitos pelaamisesta!")
             break
 
-#Tässä on peli osio ja reppu valikko, jossa käyttäjä lisää esineitä, posita tai katso esineen, jonka laittoi reppuusi.
         elif komento == "peli":
             print("Peli alkaa pian...")
 
