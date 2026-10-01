@@ -36,12 +36,15 @@ else:
         print("Valitse: peli | info | lopeta")
         komento = input("Komentoni: ")
 
-        if komento == "lopeta":
-            print("Kiitos pelaamisesta!")
+        if komento == "1":
+            print("Peli alkaa pian..")
             break
 
-        elif komento == "peli":
-            print("Peli alkaa pian...")
+        elif komento == "2":
+            print("Tämä on opiskelijan tekemä peli.")
+
+        elif komento == "3":
+            print("Kiitos pelaamisesta!")
 
             print("Reppu valikko:")
             print("1) Lisää esine repuun")
@@ -63,3 +66,4 @@ else:
             print("Tämä on opiskelijan tekemä peli.")
         else:
             print("Väärä komento.")
+

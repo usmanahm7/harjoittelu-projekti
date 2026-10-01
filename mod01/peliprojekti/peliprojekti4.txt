@@ -1,0 +1,2 @@
+T�ss� ovat pelin luokat (Esine, Huone, Pelaaja). Peli toimii n�ill� luokilla.
+Voin muokata luokkia oman pelin tarpeiden mukaan, mutta viel� mietin millaine minun peli tulee olemaan.
