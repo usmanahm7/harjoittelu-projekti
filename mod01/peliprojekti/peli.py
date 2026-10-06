@@ -1,3 +1,6 @@
+print("Tervetuloa pieneen seikkailuun peliin.")
+print("Tavoitteesi on löytää kadonnut avain.")
+
 käyttäjä = input('Anna nimesi: ')
 ikä = int(input('Anna ikäsi: '))
 
@@ -33,26 +36,39 @@ else:
     print("Hauska tavata, " + käyttäjä + "!")
 
     while True:
-        print("Valitse: peli | info | lopeta")
+        print("Valitse: 1 - peli | 2 - info | 3 - reppu | 4 - lopeta")
         komento = input("Komentoni: ")
-
+    
         if komento == "1":
             print("Peli alkaa pian..")
-            break
 
-        elif komento == "2":
-            print("Tämä on opiskelijan tekemä peli.")
+            print("\nOlet eksynyt metsään. Edessäsi on kaksi luolaa.")
+            print("Luola 1 näyttää tosi pimeältä ja hiljaiselta.")
+            print("Luola 2 näyttää tosi valoisalta, mutta kuulet jonkun eläimen äänen sieltä.")
+            
+            valinta = input("Valitse jompi kumpi luola (1 tai 2): ")
 
-        elif komento == "3":
+        if valinta == "1":
+            print("\nAstut pimeäänseen luolaan!!!")
+            print("Se on hiljainen. Löydät lattialta vanhan aikaisen avaimen!")
+            print("Avain näyttä olevan suuren aarre laatikon avain.")
+            reppu.append("Aarre-avain")
+
+        elif valinta == "2":
+            print("Näät edessä ison karhun nukkuvan!")
+            print("Karhun heräää!!! ja hyökkää sinua päin!")
+            print("Juokset ulos, mutta et ehtinnyt ja karhu söi sinut!")
+            print("Hävisit pelin. Peli loppui.")
             print("Kiitos pelaamisesta!")
 
+        elif komento == "3":
             print("Reppu valikko:")
             print("1) Lisää esine repuun")
             print("2) Näytä reppuni")
             print("3) Poista esine repustani")
-
+    
             valinta = input("Valinta: ")
-
+    
             if valinta == "1":
                 lisaa_esine()
             elif valinta == "2":
@@ -61,9 +77,10 @@ else:
                 poista_esine()
             else:
                 print("Virheellinen valinta.")
-
-        elif komento == "info":
-            print("Tämä on opiskelijan tekemä peli.")
+    
+        elif komento == "4":
+            print("Kiitos pelaamisesta!")
+            break
+    
         else:
             print("Väärä komento.")
-
