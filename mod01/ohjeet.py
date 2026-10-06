@@ -1,3 +1,2 @@
 with open("ohjeet.txt", "w") as f:
-    f.write("Ohjeet Treassure Hunt peliim:\nTässä pelissä olet eksynyt metsään ja " \
-    "\nyrität löytää kadonneen aarteen avaimen.")
+    f.write("Ohjeet Treassure Hunt peliim:\nTässä pelissä olet eksynyt metsään ja \nyrität löytää kadonneen aarteen avaimen.Kun peli alkaa näet kaksi luolaa. \nValitse niistä yksi ja tee pelissä oikeat valinnat päästäkseen eteen\nPelissä on reppu valikko myös, johon lisätään pelaaja saamat tavarat.")

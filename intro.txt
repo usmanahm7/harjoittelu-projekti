@@ -1,0 +1,3 @@
+Tervetuloa Treasure Hunt seikkailuun peliin.
+Olet eksynyt metsään ja yrität löytää kadonneen aarteen avaimen.
+Valitse ja tee oikeat päätökset päästäksesi eteenpäin.

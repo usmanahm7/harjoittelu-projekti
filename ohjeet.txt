@@ -1,0 +1,5 @@
+Ohjeet Treassure Hunt peliim:
+Tässä pelissä olet eksynyt metsään ja 
+yrität löytää kadonneen aarteen avaimen.Kun peli alkaa näet kaksi luolaa. 
+Valitse niistä yksi ja tee pelissä oikeat valinnat päästäkseen eteen
+Pelissä on reppu valikko myös, johon lisätään pelaaja saamat tavarat.

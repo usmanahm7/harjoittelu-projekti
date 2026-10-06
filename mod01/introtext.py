@@ -1,2 +1,2 @@
 with open("intro.txt", "w") as f:
-    f.write("Tervetuloa Treasure Hunt seikkailuun peliin.\nTavoitteesi on löytää kadonnut avain.")
+    f.write("Tervetuloa Treasure Hunt seikkailuun peliin.\nOlet eksynyt metsään ja yrität löytää kadonneen aarteen avaimen.\nValitse ja tee oikeat päätökset päästäksesi eteenpäin.")
