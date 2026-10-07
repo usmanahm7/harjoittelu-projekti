@@ -36,7 +36,7 @@ else:
     print("Hauska tavata, " + käyttäjä + "!")
 
     while True:
-        print("Valitse: 1 - peli | 2 - info | 3 - reppu | 4 - lopeta")
+        print("Valitse: 1 - peli | 2 - ohjeet | 3 - reppu | 4 - lopeta")
         komento = input("Komentoni: ")
     
         if komento == "1":
@@ -60,6 +60,11 @@ else:
                 print("Juokset ulos, mutta et ehtinnyt ja karhu söi sinut!")
                 print("Hävisit pelin. Peli loppui.")
                 print("Kiitos pelaamisesta!")
+
+        elif komento == "2":
+            print("-------------------") 
+            with open("mod01/peliprojekti/Ohjeet.txt", "r", encoding='utf-8') as tiedosto:
+                print(tiedosto.read())
 
         elif komento == "3":
             print("Reppu valikko:")
