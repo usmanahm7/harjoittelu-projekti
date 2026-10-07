@@ -39,7 +39,8 @@ def reppu_valikko():
         print("3) Poista esine repustani")
     
         valinta = input("Valinta: ")
-    
+
+        print("---------------------------------------")
         if valinta == "1":
             lisaa_esine()
         elif valinta == "2":
@@ -52,10 +53,14 @@ def reppu_valikko():
 def luola_1():
     print("---------------------------------------")                 
     print("\nAstut pimeäänseen luolaan!!!")
-    print("Luolassa on tosi hiljaista.\nLöydät lattialta vanhan aikaisen avaimen!")
+    print("Luolassa on tosi hiljaista.")
+    print("\nLöydät lattialta vanhan aikaisen avaimen!")
     print("Avain näyttä olevan aarre laatikon avain.")
     reppu.append("Aarre-avain")
     print("Avain lisättiin reppuusi.")   
+
+
+
 
 def luola_2():
     print("---------------------------------------")
@@ -87,6 +92,8 @@ def peli():
 
     if valinta == "1":
         luola_1()
+        luola1_jatkuu()
+        
     elif valinta == "2":
         luola_2()
     else:
@@ -97,11 +104,16 @@ def ohjeet():
     with open("mod01/peliprojekti/Ohjeet.txt", "r", encoding='utf-8') as tiedosto:
         print(tiedosto.read())
      
+def luola1_jatkuu():
+     print("Jatkat matkaasi luolan perään\nNäet siellä kaksi arkkua")
+     print("\nmutta sieltä yhdestä kuuluu kobran ääni.\nJos valitsen väärän arkkun")
+     print("niin myrkyllinen kobra tapppaa sinut ja häviät pelin!")
 
 if ikä < 12:
     print("Olet alaikäinen.")
 else:
     print("Hauska tavata, " + käyttäjä + "!")
+    print("---------------------------------------")
 
     while True:
         print("Valitse: 1 - peli | 2 - ohjeet | 3 - reppu | 4 - lopeta")
@@ -115,6 +127,7 @@ else:
         elif komento == "3":
                 reppu_valikko()
         elif komento == "4":
+                print("---------------------------------------")
                 print("Kiitos pelaamisesta!\n")
                 print("Tervetuloa uudestaan!!")
         else:
