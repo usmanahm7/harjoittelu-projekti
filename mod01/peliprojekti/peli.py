@@ -1,8 +1,9 @@
-print("--------------------------------")
+print("---------------------------------------")
 with open("mod01/peliprojekti/Intro.txt", "r", encoding='utf-8') as tiedosto:
                 print(tiedosto.read())
 käyttäjä = input('Anna nimesi: ')
 ikä = int(input('Anna ikäsi: '))
+print("---------------------------------------")
 
 reppu = []
 
@@ -30,6 +31,72 @@ def poista_esine():
     else:
         print("Esinettä ei löytynyt repustasi!.")
 
+def reppu_valikko():
+        print("---------------------------------------")
+        print("Reppu valikko:")
+        print("1) Lisää esine repuun")
+        print("2) Näytä reppuni")
+        print("3) Poista esine repustani")
+    
+        valinta = input("Valinta: ")
+    
+        if valinta == "1":
+            lisaa_esine()
+        elif valinta == "2":
+            nayta_reppu()
+        elif valinta == "3":
+            poista_esine()
+        else:
+            print("Virheellinen valinta.")
+
+def luola_1():
+    print("---------------------------------------")                 print("\nAstut pimeäänseen luolaan!!!")
+    print("Se on hiljainen. Löydät lattialta vanhan aikaisen avaimen!")
+    print("Avain näyttä olevan suuren aarre laatikon avain.")
+    reppu.append("Aarre-avain")
+    print("Aarre-avain lisättiin reppuusi.")   
+
+def luola_2():
+    print("---------------------------------------")
+    print("Luolan sisällä on kaksi reittiä.")
+
+    reitti = input("Valitse vasen tai oikea retti. (v/o): ")
+    if reitti == "v":
+        print("---------------------------------------")
+        print("Edessäsi nukkuu leijona!")
+        print("Leijona heräää!!! ja hyökkää sinua päin!\n")
+        print("Juokset ulos, mutta et ehtinnyt ja leijona söi sinut!")
+        print("Hävisit pelin. Peli loppui.\n")
+        print("Kiitos pelaamisesta!")
+
+    elif reitti == "o":
+        print("Löysit oikean, pääset seuraava tasoon")
+    else:
+        print("vitheellinen valinta.")
+         
+
+def peli():
+    print("Peli alkaa pian..")
+    print("---------------------------------------")
+    print("\nOlet eksynyt metsään. Edessäsi on kaksi luolaa.")
+    print("Luola 1 näyttää tosi pimeältä ja hiljaiselta.")
+    print("Luola 2 näyttää tosi valoisalta, mutta kuulet jonkun eläimen äänen sieltä.")
+    print("---------------------------------------")
+    valinta = input("Valitse jompi kumpi luola (1 tai 2): ")  
+
+    if valinta == "1":
+        luola_1()
+    elif valinta == "2":
+        luola_2
+    else:
+        print("virheellinen valinta.")
+
+def ohjeet():
+    print("-------------------") 
+    with open("mod01/peliprojekti/Ohjeet.txt", "r", encoding='utf-8') as tiedosto:
+        print(tiedosto.read())
+     
+
 if ikä < 12:
     print("Olet alaikäinen.")
 else:
@@ -39,60 +106,19 @@ else:
         print("Valitse: 1 - peli | 2 - ohjeet | 3 - reppu | 4 - lopeta")
         komento = input("Komentoni: ")
     
-        if komento == "1":
-            print("Peli alkaa pian..")
+        
 
-            print("\nOlet eksynyt metsään. Edessäsi on kaksi luolaa.")
-            print("Luola 1 näyttää tosi pimeältä ja hiljaiselta.")
-            print("Luola 2 näyttää tosi valoisalta, mutta kuulet jonkun eläimen äänen sieltä.")
-            
-            valinta = input("Valitse jompi kumpi luola (1 tai 2): ")
-    
-            if valinta == "1":
-                print("\nAstut pimeäänseen luolaan!!!")
-                print("Se on hiljainen. Löydät lattialta vanhan aikaisen avaimen!")
-                print("Avain näyttä olevan suuren aarre laatikon avain.")
-                reppu.append("Aarre-avain")
-
-            elif valinta == "2":
-                print("Luolan sisällä on kaksi reittiä.")
-                reitti = input("Valitse vasen tai oikea retti. (v/o): ")
-                print(reitti)
-                if reitti == "v":
-                    print("Edessäsi nukkuu leijona!")
-                    print("Leijona heräää!!! ja hyökkää sinua päin!")
-                    print("Juokset ulos, mutta et ehtinnyt ja leijona söi sinut!")
-                    print("Hävisit pelin. Peli loppui.")
-                    print("Kiitos pelaamisesta!")
-                    break
 
                 elif reitti == "o":
+                    print("---------------------------------------")
                     print("Löysit oikean, pääset seuraava tasoon")
 
                 else:
                     print("hävisit")
                     break
 
-            print("-------------------") 
-            with open("mod01/peliprojekti/Ohjeet.txt", "r", encoding='utf-8') as tiedosto:
-                print(tiedosto.read())
+            
 
-        elif komento == "3":
-            print("Reppu valikko:")
-            print("1) Lisää esine repuun")
-            print("2) Näytä reppuni")
-            print("3) Poista esine repustani")
-    
-            valinta = input("Valinta: ")
-    
-            if valinta == "1":
-                lisaa_esine()
-            elif valinta == "2":
-                nayta_reppu()
-            elif valinta == "3":
-                poista_esine()
-            else:
-                print("Virheellinen valinta.")
     
         elif komento == "4":
             print("---------------------")
