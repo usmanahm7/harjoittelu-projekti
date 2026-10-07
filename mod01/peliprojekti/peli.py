@@ -55,13 +55,17 @@ else:
                 reppu.append("Aarre-avain")
 
             elif valinta == "2":
-                print("Näät edessä ison karhun nukkuvan!")
-                print("Karhu heräää!!! ja hyökkää sinua päin!")
-                print("Juokset ulos, mutta et ehtinnyt ja karhu söi sinut!")
-                print("Hävisit pelin. Peli loppui.")
-                print("Kiitos pelaamisesta!")
+                    print("Luolan sisällä on kaksi reittiä.")
+                    print("Valitse vasen tai oikea retti. (v/o)\n")
+                    if valinta == "v":
 
-        elif komento == "2":
+                        print("Edessäsi nukkuu leijona!")
+                        print("Leijona heräää!!! ja hyökkää sinua päin!")
+                        print("Juokset ulos, mutta et ehtinnyt ja leijona söi sinut!")
+                        print("Hävisit pelin. Peli loppui.")
+                        print("Kiitos pelaamisesta!")
+
+
             print("-------------------") 
             with open("mod01/peliprojekti/Ohjeet.txt", "r", encoding='utf-8') as tiedosto:
                 print(tiedosto.read())
@@ -89,3 +93,4 @@ else:
     
         else:
             print("Väärä komento.")
+
