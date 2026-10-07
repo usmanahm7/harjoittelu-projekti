@@ -1,2 +1,6 @@
-Tervetuloa Treasure Hunt seikkailuun peliin.
-Tavoitteesi on löytää kadonnut avain.
+Tervetuloa Treasure Hunt peliin!
+
+Tässä pelisse pääset pieneen seikkailuun,
+jossa kaikki tekemäsi valinnat ovat tärkeitä, pelin voittamiseksi! 
+
+Onnea peliin!

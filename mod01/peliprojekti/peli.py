@@ -1,6 +1,6 @@
-print("Tervetuloa pieneen seikkailuun peliin.")
-print("Tavoitteesi on löytää kadonnut avain.")
-
+print("--------------------------------")
+with open("mod01/peliprojekti/Intro.txt", "r", encoding='utf-8') as tiedosto:
+                print(tiedosto.read())
 käyttäjä = input('Anna nimesi: ')
 ikä = int(input('Anna ikäsi: '))
 
