@@ -50,15 +50,16 @@ def reppu_valikko():
             print("Virheellinen valinta.")
 
 def luola_1():
-    print("---------------------------------------")                 print("\nAstut pimeäänseen luolaan!!!")
-    print("Se on hiljainen. Löydät lattialta vanhan aikaisen avaimen!")
-    print("Avain näyttä olevan suuren aarre laatikon avain.")
+    print("---------------------------------------")                 
+    print("\nAstut pimeäänseen luolaan!!!")
+    print("Luolassa on tosi hiljaista.\nLöydät lattialta vanhan aikaisen avaimen!")
+    print("Avain näyttä olevan aarre laatikon avain.")
     reppu.append("Aarre-avain")
-    print("Aarre-avain lisättiin reppuusi.")   
+    print("Avain lisättiin reppuusi.")   
 
 def luola_2():
     print("---------------------------------------")
-    print("Luolan sisällä on kaksi reittiä.")
+    print("Luolan sisällä on kaksi reittiä.\n")
 
     reitti = input("Valitse vasen tai oikea retti. (v/o): ")
     if reitti == "v":
@@ -87,7 +88,7 @@ def peli():
     if valinta == "1":
         luola_1()
     elif valinta == "2":
-        luola_2
+        luola_2()
     else:
         print("virheellinen valinta.")
 
@@ -107,23 +108,16 @@ else:
         komento = input("Komentoni: ")
     
         
-
-
-                elif reitti == "o":
-                    print("---------------------------------------")
-                    print("Löysit oikean, pääset seuraava tasoon")
-
-                else:
-                    print("hävisit")
-                    break
-
-            
-
-    
+        if komento == "1":
+                peli()
+        elif komento == "2":
+                ohjeet()
+        elif komento == "3":
+                reppu_valikko()
         elif komento == "4":
-            print("---------------------")
-            print("Kiitos pelaamisesta!")
-            break
-    
+                print("Kiitos pelaamisesta!\n")
+                print("Tervetuloa uudestaan!!")
         else:
-            print("Väärä komento.")
+            print("Väärä komento. ")
+                      
+        
