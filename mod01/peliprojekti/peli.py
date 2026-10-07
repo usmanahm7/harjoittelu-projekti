@@ -47,19 +47,19 @@ else:
             print("Luola 2 näyttää tosi valoisalta, mutta kuulet jonkun eläimen äänen sieltä.")
             
             valinta = input("Valitse jompi kumpi luola (1 tai 2): ")
+    
+            if valinta == "1":
+                print("\nAstut pimeäänseen luolaan!!!")
+                print("Se on hiljainen. Löydät lattialta vanhan aikaisen avaimen!")
+                print("Avain näyttä olevan suuren aarre laatikon avain.")
+                reppu.append("Aarre-avain")
 
-        if valinta == "1":
-            print("\nAstut pimeäänseen luolaan!!!")
-            print("Se on hiljainen. Löydät lattialta vanhan aikaisen avaimen!")
-            print("Avain näyttä olevan suuren aarre laatikon avain.")
-            reppu.append("Aarre-avain")
-
-        elif valinta == "2":
-            print("Näät edessä ison karhun nukkuvan!")
-            print("Karhun heräää!!! ja hyökkää sinua päin!")
-            print("Juokset ulos, mutta et ehtinnyt ja karhu söi sinut!")
-            print("Hävisit pelin. Peli loppui.")
-            print("Kiitos pelaamisesta!")
+            elif valinta == "2":
+                print("Näät edessä ison karhun nukkuvan!")
+                print("Karhu heräää!!! ja hyökkää sinua päin!")
+                print("Juokset ulos, mutta et ehtinnyt ja karhu söi sinut!")
+                print("Hävisit pelin. Peli loppui.")
+                print("Kiitos pelaamisesta!")
 
         elif komento == "3":
             print("Reppu valikko:")
