@@ -74,7 +74,7 @@ def luola1_jatkuu():
         print("Näet kulta kolikkoita ja timannteja!!\n")
         reppu.append("Kulta kolikot ja timantit")
         print("\nkulta kolikot ja timantit lisättiin repuussi.")
-        print("\nLöysit kadonneen aarreen\n")
+        print("\nLöysit kadonneen aarreen!\n")
         print("---------------------------------------")
         print("Voitit peliin!! Onneksi olkoo.")
         print("Kiitos pelaamisesta. Tervetuloa uudestaan.\n")
@@ -104,10 +104,13 @@ def luola_2():
         print("Juokset ulos, mutta et ehtinnyt ja leijona söi sinut!")
         print("Hävisit pelin. Peli loppui.\n")
         print("Kiitos pelaamisesta!")
+        exit()
 
     elif reitti == "o":
         print("Onneksi olkoon pääsit oikeaan reittiin!")
         print("Pääset seuraava tasoon")
+        print("------------------------")
+        print("\nLuola näyttää olevan osa metsän suojelualuetta.")
         print("\nKuljet oikeaa reittiä pitkin...")
         print("---------------------------------------")
         print("\nNäet ison oven edessäsi.\n Sammalla näet ison susin nukkuvan.\n")
@@ -139,6 +142,7 @@ def luola_2():
             print("---------------------------------")
             print("Onneksi olkoon voitit pelin.")
             print("Kiitos pelaamisesta.\n")
+            exit()
 
     else:
         print("virheellinen valinta.")
