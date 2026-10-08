@@ -54,10 +54,10 @@ def luola_1():
     print("---------------------------------------")                 
     print("\nAstut pimeäänseen luolaan!!!")
     print("Luolassa on tosi hiljaista.")
-    print("\nLöydät lattialta vanhan aikaisen avaimen!")
-    print("Avain näyttä olevan aarre laatikon avain.")
+    print("\nLöydät lattialta vanhan aikaisen avaimen!\n")
+    print("Avain näyttä olevan aarre laatikon avain.\n")
     reppu.append("Aarre-avain")
-    print("Avain lisättiin reppuusi.")   
+    print("Avain lisättiin reppuusi.\n")   
 
 def luola1_jatkuu():
      print("Jatkat matkaasi luolan perään\nNäet siellä kaksi arkkua")
@@ -71,21 +71,22 @@ def luola1_jatkuu():
         print("Avaat lukollisen arkun aarre-avaimellasi.")
         print("\n Arkkuu avautuu hitaasti...")
         print("Sisältää paistaa kultainen valoaa\n")
-        print("Näet kulta kolikkoita ja timannteja!!")
+        print("Näet kulta kolikkoita ja timannteja!!\n")
         reppu.append("Kulta kolikot ja timantit")
         print("\nkulta kolikot ja timantit lisättiin repuussi.")
         print("\nLöysit kadonneen aarreen\n")
         print("---------------------------------------")
         print("Voitit peliin!! Onneksi olkoo.")
-        print("Kiitos pelaamisesta. Tervetuloa uudestaan.")
+        print("Kiitos pelaamisesta. Tervetuloa uudestaan.\n")
      elif valinta =="2":
         print("---------------------------------------")
-        print("Sisältää kuuluu kobran äänii!!!")
+        print("\nSisältää kuuluu kobran äänii!!!\n")
         print("Kobraa iskee!!!")
         print("---------------------------------------")
-        print("Hävisit pelin. Peli loppui.")
+        print("\nHävisit pelin. Peli loppui.")
         print("Kiitos pelaamisesta.")
         print("---------------------------------------")
+        exit()
      else:
         print("Virheellinen valinta.")
 
@@ -126,6 +127,7 @@ def luola_2():
             print("Hävisit peli")
             print("-----------------------")
             print("Kiitos pelaamisesta. Tervetuloa uudestaan.")
+            exit()
         
         elif valinta == "2":
             print("Susi herää ja harhautuu kiven perään...")
@@ -139,15 +141,15 @@ def luola_2():
             print("Kiitos pelaamisesta.\n")
 
     else:
-        print("vitheellinen valinta.")
+        print("virheellinen valinta.")
          
 
 def peli():
     print("Peli alkaa pian..")
     print("---------------------------------------")
-    print("\nOlet eksynyt metsään. Edessäsi on kaksi luolaa.")
+    print("\nOlet eksynyt metsään. Edessäsi on kaksi luolaa.\n")
     print("Luola 1 näyttää tosi pimeältä ja hiljaiselta.")
-    print("Luola 2 näyttää tosi valoisalta, mutta kuulet jonkun eläimen äänen sieltä.")
+    print("Luola 2 näyttää tosi valoisalta,\nmutta kuulet jonkun eläimen äänen sieltä.")
     print("---------------------------------------")
     valinta = input("Valitse jompi kumpi luola (1 tai 2): ")  
 
