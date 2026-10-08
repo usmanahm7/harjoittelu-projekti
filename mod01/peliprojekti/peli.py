@@ -105,7 +105,39 @@ def luola_2():
         print("Kiitos pelaamisesta!")
 
     elif reitti == "o":
-        print("Löysit oikean, pääset seuraava tasoon")
+        print("Onneksi olkoon pääsit oikeaan reittiin!")
+        print("Pääset seuraava tasoon")
+        print("\nKuljet oikeaa reittiä pitkin...")
+        print("---------------------------------------")
+        print("\nNäet ison oven edessäsi.\n Sammalla näet ison susin nukkuvan.\n")
+        print("Susi vielä nukkuu, mutta et voi tehdä kovaa  ääntä!.")
+        print("\nMitä teet?")
+        print("\nValitse oikea vaihtoehtoa päästäksesi eteenpäin!")
+        print("-----------------------------------------")
+        print("Valinta 1: Menee Susin vierestä ohi hiljaan.")
+        print("\nValinta 2: Harhauta susia heittämällä kiveä kauas.")     
+
+        valinta = input("\nValiste vaihtoehto (1 tai 2):\n")
+        print("-------------------------")
+        
+        if valinta == "1":
+            print("Susi heräsi!!!")
+            print("\nHyökkäsi sinua päin, ja tappoi sinut!!")
+            print("Hävisit peli")
+            print("-----------------------")
+            print("Kiitos pelaamisesta. Tervetuloa uudestaan.")
+        
+        elif valinta == "2":
+            print("Susi herää ja harhautuu kiven perään...")
+            print("\nJuokset ovesta ulos ja ehdit sulkea ennen\nkuin susi huomaa.\n")
+            print("Näet edessäsi kiiltä timanttin ja ulos käynnin luolasta.")
+            reppu.append("Timantti")
+            print("\nTimantti lisättiin reppuusi")
+            print("Pääset luolasta ulos elossa ja löysit yksi aarreista.\n")
+            print("---------------------------------")
+            print("Onneksi olkoon voitit pelin.")
+            print("Kiitos pelaamisesta.\n")
+
     else:
         print("vitheellinen valinta.")
          
