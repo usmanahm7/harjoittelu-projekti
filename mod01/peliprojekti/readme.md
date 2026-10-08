@@ -1,6 +1,11 @@
 ## Treasure Hunt
 
-Tekijän nimi = Usman
+Tervetuloa Treasure Hunt peliin!
+
+Tässä pelisse pääset pieneen seikkailuun,
+jossa kaikki tekemäsi valinnat ovat tärkeitä, pelin voittamiseksi! 
+
+Tekijän nimi = Usman Ahmad
 
 Olen tehnyt peliprojekti tehtävät 1-2.
 
