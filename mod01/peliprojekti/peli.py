@@ -59,6 +59,35 @@ def luola_1():
     reppu.append("Aarre-avain")
     print("Avain lisättiin reppuusi.")   
 
+def luola1_jatkuu():
+     print("Jatkat matkaasi luolan perään\nNäet siellä kaksi arkkua")
+     print("\nmutta sieltä yhdestä kuuluu kobran ääni.\nJos valitsen väärän arkkun")
+     print("niin myrkyllinen kobra tapppaa sinut ja häviät pelin!")
+
+     valinta = input("Valitse yksi arkuista (1 tai 2): ")
+
+     if valinta == "1":
+        print("---------------------------------------")
+        print("Avaat lukollisen arkun aarre-avaimellasi.")
+        print("\n Arkkuu avautuu hitaasti...")
+        print("Sisältää paistaa kultainen valoaa\n")
+        print("Näet kulta kolikkoita ja timannteja!!")
+        reppu.append("Kulta kolikot ja timantit")
+        print("\nkulta kolikot ja timantit lisättiin repuussi.")
+        print("\nLöysit kadonneen aarreen\n")
+        print("---------------------------------------")
+        print("Voitit peliin!! Onneksi olkoo.")
+        print("Kiitos pelaamisesta. Tervetuloa uudestaan.")
+     elif valinta =="2":
+        print("---------------------------------------")
+        print("Sisältää kuuluu kobran äänii!!!")
+        print("Kobraa iskee!!!")
+        print("---------------------------------------")
+        print("Hävisit pelin. Peli loppui.")
+        print("Kiitos pelaamisesta.")
+        print("---------------------------------------")
+     else:
+        print("Virheellinen valinta.")
 
 
 
@@ -104,10 +133,7 @@ def ohjeet():
     with open("mod01/peliprojekti/Ohjeet.txt", "r", encoding='utf-8') as tiedosto:
         print(tiedosto.read())
      
-def luola1_jatkuu():
-     print("Jatkat matkaasi luolan perään\nNäet siellä kaksi arkkua")
-     print("\nmutta sieltä yhdestä kuuluu kobran ääni.\nJos valitsen väärän arkkun")
-     print("niin myrkyllinen kobra tapppaa sinut ja häviät pelin!")
+
 
 if ikä < 12:
     print("Olet alaikäinen.")
