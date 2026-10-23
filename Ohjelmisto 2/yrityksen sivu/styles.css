@@ -15,8 +15,31 @@ header {
     color: white;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cc0000;
+    padding: 10px 30px;
+    color: white;
+}
+
+
+
 .logo-img {
     width: 40px;
     height: auto;
 }
 
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+.home-img {
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+    margin-top: 10px;
+}
