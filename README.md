@@ -1,6 +1,6 @@
 ## Ohjelmisto 2 -ohjelmointitehtävät
 
-### JS-moduuli 1
+### JS-moduuli 1 ja 2
 
 https://github.com/usmanahm7/harjoittelu-projekti/tree/main/Ohjelmisto%202/mod01
 
