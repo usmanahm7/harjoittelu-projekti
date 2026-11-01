@@ -56,9 +56,12 @@ nav a:hover {
 
 main {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 main h1 {
-    color: white;
+    color: #ffea00;
+    font-size: 210px;
+    margin: 0;
+    text-shadow: none;
 }
