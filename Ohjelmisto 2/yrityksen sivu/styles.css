@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: f4f4f4;
+    background-color: none;
     color: #333;
     background-image: url(img/home.jpeg);
     background-size: cover;
@@ -20,22 +20,28 @@ header {
     background-color: transparent;
     padding: 10px 30px;
     color: white;
+    height: 60px;
 }
 
 .logo-area {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
     font-weight: bold;
     color: rgb(208, 3, 3);
+    margin-top: 90px;
 }
 
 
 .logo-img {
-    width: 50px;
+    width: 100px;
     height: auto;
 }
 
+.logo-area span {
+    font-size: 28px;
+    line-height: 1;
+}
 
 nav ul {
     display: flex;
@@ -64,7 +70,7 @@ main {
 main h1 {
     color: #ffea00;
     font-size: 80px;
-    margin-top: -95px;
+    margin-top: -80px;
     margin-bottom: 0;
     text-transform: uppercase;
     text-shadow: none;
@@ -89,5 +95,5 @@ main h1 {
     color: white;
     font-size: 24px;
     margin-top: 15px;
-    text-shadow: 2px 2px 8px rgb(0, 0, 0, 0,.0);
+    text-shadow: none;
 }
