@@ -4,6 +4,8 @@
 
 https://github.com/usmanahm7/harjoittelu-projekti/tree/main/Ohjelmisto%202/mod01
 
+Tein Yrityksen verkkosivusto HTML:llä ja CSS:llä tehtävän.
+
 Tehdyt tehtävät:
 - Tehtävä 1: 1p
 - Tehtävä 2: 1p
