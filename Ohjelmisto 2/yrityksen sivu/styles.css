@@ -65,3 +65,25 @@ main h1 {
     margin: 0;
     text-shadow: none;
 }
+
+.product-card {
+    margin: 40px auto ;
+    text-align: center;
+}
+
+.product-card img {
+    width: 700px;
+    max-width: 90%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+.product-card h2 {
+    color: white;
+    font-size: 24px;
+    margin-top: 15px;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0, 0,.0);
+}
