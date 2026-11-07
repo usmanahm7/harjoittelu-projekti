@@ -2,7 +2,7 @@
 
 ### JS-moduuli 1 ja 2
 
-https://github.com/usmanahm7/harjoittelu-projekti/tree/main/Ohjelmisto%202/mod01
+https://github.com/usmanahm7/harjoittelu-projekti/tree/main/Ohjelmisto%202/ohjelmointi%202%20teht%C3%A4v%C3%A4t/mod01
 
 Tehdyt tehtävät:
 - Tehtävä 1: 1p
