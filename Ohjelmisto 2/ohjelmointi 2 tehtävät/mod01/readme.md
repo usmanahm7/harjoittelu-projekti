@@ -6,4 +6,9 @@ https://github.com/usmanahm7/harjoittelu-projekti/tree/main/Ohjelmisto%202/ohjel
 
 Tehdyt tehtävät:
 - Tehtävä 1: 1p
-- Tehtävä 2: 1p
+- Tehtävä 2: 2p
+- Tehtävä 3: 3p
+- Tehtävä 4: 3p
+- Tehtävä 7: 2p
+
+**Yhteensä 11**

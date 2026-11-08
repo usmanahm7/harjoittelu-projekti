@@ -8,6 +8,9 @@ Tein Yrityksen verkkosivusto HTML:llä ja CSS:llä tehtävän.
 
 Tehdyt tehtävät:
 - Tehtävä 1: 1p
-- Tehtävä 2: 1p
+- Tehtävä 2: 2p
+- Tehtävä 3: 3p
+- Tehtävä 4: 3p
+- Tehtävä 7: 2p
 
-Aloitin yritys sivun tehtävän ja olen tehnnyt noin puolet siitä.
+**Yhteensä 11**
