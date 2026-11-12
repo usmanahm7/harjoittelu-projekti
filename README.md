@@ -1,5 +1,7 @@
 ## Ohjelmisto 2 -ohjelmointitehtävät
 
+users metpoliaan linkki:  https://users.metropolia.fi/~usmanahm/
+
 ### JS-moduuli 1 ja 2
 
 https://github.com/usmanahm7/harjoittelu-projekti/tree/main/Ohjelmisto%202/ohjelmointi%202%20teht%C3%A4v%C3%A4t/mod01
