@@ -31,3 +31,17 @@ Tehdyt tehtävät:
 - Tehtävä 5: 2 p
 
 **Yhteensä 10 p**
+
+
+### JS-moduuli 4
+
+https://github.com/usmanahm7/harjoittelu-projekti/tree/main/Ohjelmisto%202/ohjelmointi%202%20teht%C3%A4v%C3%A4t/mod04
+
+Tehdyt tehtävät:
+- Tehtävä 1: 2 p
+- Tehtävä 2: 2 p
+- Tehtävä 3: 2 p
+- Tehtävä 4: 2 p
+- Tehtävä 5: 2 p
+
+**Yhteensä 10 p**
