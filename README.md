@@ -45,3 +45,14 @@ Tehdyt tehtävät:
 - Tehtävä 7: 2 p
 
 **Yhteensä 10 p**
+
+
+### Python Flask -palvelin
+
+https://github.com/usmanahm7/harjoittelu-projekti/tree/main/Ohjelmisto%202/ohjelmointi%202%20teht%C3%A4v%C3%A4t/Python%20Flask
+
+Tehdyt tehtävät:
+- Tehtävä 1: 4 p
+- Tehtävä 3: 10 p
+
+**Yhteensä 10 p**

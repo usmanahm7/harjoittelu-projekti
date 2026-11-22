@@ -46,6 +46,7 @@ Tehdyt tehtävät:
 
 ### Python Flask -palvelin
 
+https://github.com/usmanahm7/harjoittelu-projekti/tree/main/Ohjelmisto%202/ohjelmointi%202%20teht%C3%A4v%C3%A4t/Python%20Flask
 
 Tehdyt tehtävät:
 - Tehtävä 1: 4 p
