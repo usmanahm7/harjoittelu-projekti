@@ -42,3 +42,13 @@ Tehdyt tehtävät:
 - Tehtävä 5: 2 p
 
 **Yhteensä 10 p**
+
+
+### Python Flask -palvelin
+
+
+Tehdyt tehtävät:
+- Tehtävä 1: 4 p
+- Tehtävä 3: 10 p
+
+**Yhteensä 10 p**
